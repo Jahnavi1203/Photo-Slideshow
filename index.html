@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>
+        Photo Gallery
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <center>
+        <ul class="menu">
+            <li class="list"><a href="#gridview">Grid View &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</a></li>
+            <li class="list"><a href="#slideshow">Sliding Gallery</a></li>
+        </ul>
+    </center>
+    <br><br><br><br>
+    <h1>My Photo Gallery</h1>
+    <br><br><br>
+    <div class="container">
+
+        <section id="gridview">
+            <img class="image1" src="image1.jpg">
+            <img class="image2" src="image2.jpg">
+            <img class="image3" src="image3.jpg">
+            <br><br>
+            <img class="image4" src="image4.jpg">
+            <br><br>
+            <img class="image5" src="image5.jpg">
+            <img class="image6" src="image6.jpg">
+            <br><br>
+            <img class="image7" src="image7.jpg">
+            <img class="image8" src="image8.jpg">
+        </section>
+        <br><br><br><br><br>
+
+        <section id="slideshow">
+            <center>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <img class="image1" src="image1.jpg">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img class="image2" src="image2.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image3" src="image3.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image4" src="image4.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image5" src="image5.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image6" src="image6.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image7" src="image7.jpg">
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img class="image8" src="image8.jpg">
+                            </center>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </center>
+        </section>
+    </div>
+</body></html>

@@ -1,0 +1,69 @@
+body{
+    text-align:center;   
+}
+.menu{
+    font-family:fantasy;
+    position:fixed;
+    z-index:10;    
+    margin-top:0px;
+    width:100%;
+    top:0px;
+    color:darkorchid;
+}
+.list{
+    color:coral;
+    display:inline;
+    
+}
+.image1{
+    width:150px;
+}
+.image2{
+width:150px;
+}
+.image3{
+    width:210;
+    height:300;
+}
+.image4{
+    width:400;
+}
+.image5{
+    width:150;
+}
+.image6{
+    width:270;
+    height:300;
+}
+.image7{
+  width:150;  
+}
+.image8{
+  width:150;  
+}
+img{
+    transition:transform .2s;
+}
+
+#myCarousel{
+    background-color:aqua;
+}
+#myCarousel img{
+    height:300px;
+    margin-top:10px;
+}
+.carousel slide{
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    }
+.carousel-inner p{
+    margin-bottom:15px;
+    margin-top:15px;
+    color:white;
+    font-size:20px;
+
+}
+.item {
+    align-items: center;
+}
